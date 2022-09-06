@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first Bootstrap Website</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   
@@ -190,12 +194,12 @@
             </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 d-none d-md-block">
                     <img src="assets/img/isabelle.png" alt="Isabell waiving" class="w-100">
                 </div>
                 
                 <div class="col-9">
-                    <div class="row">
+                    <div class="row justify-content-center align-items-center">
                     
                         <div class="col p-1">
                             <!-- CARD -->
@@ -217,7 +221,7 @@
 
                         <div class="col p-1">
                             <!-- CARD -->
-                            <div class="card bg-primary text-white">
+                            <div class="card bg-success text-white">
                                 <div class="row g-0">
                                   <div class="col-md-6">
                                     <div class="card-body">
@@ -239,7 +243,7 @@
                     
                         <div class="col p-1">
                             <!-- CARD -->
-                            <div class="card bg-primary text-white">
+                            <div class="card bg-danger text-white">
                                 <div class="row g-0">
                                   <div class="col-md-6">
                                     <img src="assets/img/ph-03.jpg" class="w-100" alt="...">
@@ -257,7 +261,7 @@
 
                         <div class="col p-1">
                             <!-- CARD -->
-                            <div class="card bg-primary text-white">
+                            <div class="card bg-warning text-white">
                                 <div class="row g-0">
                                   <div class="col-md-6">
                                     <div class="card-body">
@@ -281,6 +285,28 @@
     </div>
 
     <!-- FOOTER -->
+
+    <div id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+            <div class="row row-cols-md-2 justify-content-md-center">
+                <div class="col text-center">
+                    <a href="">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow-sm font-weight-bold">Costumer Support</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center font-weight-light">
+                    <p>For Nintendo 3DS systems, use Parental Controls to restrict 3D mode for children 6 and under.</p>
+                    <p>Internet access required for online features. For more info, go to support.nintendo.com.</p>
+                    <p>Games and amiibo accessories sold separately. Figures shown not actual size. Compatibility and functionality of amiibo may vary per game. Visit amiibo.com for specific details on how each amiibo works.</p>
+                    <p>© 2001 - 2020 Nintendo. Nintendo properties are trademarks of Nintendo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
 </body>
